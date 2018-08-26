@@ -1,0 +1,33 @@
+body {
+  font-family: Consolas;
+}
+
+.cabecalho-rodape {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.livros {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.livro {
+  margin: 10px;
+  width: 300px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
